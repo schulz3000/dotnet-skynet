@@ -6,6 +6,7 @@
     <Version>0.0.1-alpha</Version>
     <Authors>Xaver Schulz</Authors>
     <Company />
+    <Title>dotnet-skynet</Title>
     <Description>SDK for integrating Skynet into dotnet applications</Description>
     <Copyright>schulz3000</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

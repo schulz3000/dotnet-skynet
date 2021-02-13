@@ -2,9 +2,9 @@
 
 namespace Skynet.Models
 {
-    public class BlacklistResponse
+    public class BlocklistResponse
     {
         [SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays")]
-        public string[] Blacklist { get; set; }
+        public string[] Blocklist { get; set; }
     }
 }

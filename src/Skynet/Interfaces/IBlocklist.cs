@@ -3,14 +3,14 @@ using System.Threading.Tasks;
 
 namespace Skynet.Interfaces
 {
-    public interface IBlacklist
+    public interface IBlocklist
     {
         /// <summary>
         /// 
         /// </summary>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task<string[]> GetBlacklists(CancellationToken cancellationToken = default);
+        Task<string[]> GetBlocklists(CancellationToken cancellationToken = default);
 
         /// <summary>
         /// 
@@ -18,7 +18,7 @@ namespace Skynet.Interfaces
         /// <param name="hash"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task AddToBlacklist(string hash, CancellationToken cancellationToken = default);
+        Task AddToBlocklist(string hash, CancellationToken cancellationToken = default);
 
         /// <summary>
         /// 
@@ -26,7 +26,7 @@ namespace Skynet.Interfaces
         /// <param name="hashes"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task AddToBlacklist(string[] hashes, CancellationToken cancellationToken = default);
+        Task AddToBlocklist(string[] hashes, CancellationToken cancellationToken = default);
 
         /// <summary>
         /// 
@@ -34,7 +34,7 @@ namespace Skynet.Interfaces
         /// <param name="hash"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task RemoveFromBlacklist(string hash, CancellationToken cancellationToken = default);
+        Task RemoveFromBlocklist(string hash, CancellationToken cancellationToken = default);
 
         /// <summary>
         /// 
@@ -42,6 +42,6 @@ namespace Skynet.Interfaces
         /// <param name="hashes"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task RemoveFromBlacklist(string[] hashes, CancellationToken cancellationToken = default);
+        Task RemoveFromBlocklist(string[] hashes, CancellationToken cancellationToken = default);
     }
 }

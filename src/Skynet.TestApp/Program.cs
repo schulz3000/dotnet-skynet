@@ -9,7 +9,7 @@ namespace Skynet.TestApp
         {
             using var client = new SkynetClient();
 
-            var blacklists = await client.GetBlacklists();
+            var blocklists = await client.GetBlocklists();
 
             var stats = await client.GetStatistic();
 

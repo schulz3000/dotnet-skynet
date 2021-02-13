@@ -50,8 +50,8 @@
         public float N1000ms { get; set; }
         public float N2000ms { get; set; }
         public float N5000ms { get; set; }
-        public int N10s { get; set; }
-        public int Nlong { get; set; }
+        public float N10s { get; set; }
+        public float Nlong { get; set; }
         public float Nerr { get; set; }
     }
 }

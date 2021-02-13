@@ -1,6 +1,6 @@
 ﻿namespace Skynet.Interfaces
 {
-    public interface ISkynetClient : IKeys, IFiles, IBlacklist, IPortals, IStats
+    public interface ISkynetClient : IKeys, IFiles, IBlocklist, IPortals, IStats
     {
     }
 }
