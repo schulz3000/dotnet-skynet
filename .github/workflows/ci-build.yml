@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore src/dotnet-skynet.sln
     - name: Build
-      run: dotnet build src/dotnet-skynet.sln --no-restore
+      run: dotnet build src/dotnet-skynet.sln -c Release --no-restore
     - name: Test
-      run: dotnet test src/dotnet-skynet.sln --no-build --verbosity normal
+      run: dotnet test src/dotnet-skynet.sln -c Release --no-build --verbosity normal
